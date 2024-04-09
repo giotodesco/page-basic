@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Press+Start+2P&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Press+Start+2P&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    background-position: center;
+    background-size: 60%;
+    background-color: black;
+    
+    padding: 0.8rem;
+    background-image: url(img/pexels-sebastian-arie-voortman-167762.jpg);
+}
+#nav_container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    background-size: cover;
+    background-position: center center;
+    color: rgb(58, 57, 57);
+    border-radius: 20px;
+    padding: 0.2rem;
+}
+#list_um, #list_tres {
+    display: flex;
+}
+#list_um li {
+    font-size: 1.2rem;
+    margin: 1rem;
+    list-style-type: none;
+    padding: 0.5rem;
+    position: relative;
+    font-weight: 400;
+    font-family: "Rajdhani", sans-serif;
+}
+#list_dois li {
+    font-size: 1.6rem;
+    margin: 1rem;
+    list-style-type: none;
+    font-weight: 800;
+    font-family: "Rajdhani", sans-serif;
+
+}
+#list_tres li {
+    font-size: 1.2rem;
+    margin: 1rem;
+    list-style-type: none;
+    padding: 0.5rem;
+    font-weight: 400;
+    font-family: "Rajdhani", sans-serif;
+}
+#main_article {
+    display: flex;
+    padding: 1.2rem;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+#main_article h1 {
+    color: rgb(217, 212, 191);
+    font-size: 4.5rem;
+    font-weight: 300;
+
+}
+.brilho {
+    font-weight: 700;
+    font-size: 4.6rem;
+    letter-spacing: 0.1rem;
+    color: rgb(133, 112, 36);
+    font-family: "Maven Pro", sans-serif;
+}
+#main_article h3 {
+    color: rgb(217, 212, 191);
+    margin-top: 1rem;
+    
+}
+#main_article h2 {
+    color: white;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    color: rgb(133, 112, 36);
+    font-weight: 900;
+    font-family: "Rajdhani", sans-serif;
+}
+h2 i {
+    color: white;
+    font-weight: 900;
+    padding: 2rem;
+}
+#vendas {
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    margin: 0 auto;
+    padding: 1rem;
+}
+#vendas h2 {
+    font-size: 2rem;
+    color: rgb(58, 57, 57);
+    font-weight: 300;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+#vendas span {
+    color: rgb(133, 112, 36);
+    font-weight: 800;
+    font-family: "Maven Pro", sans-serif;
+    animation: luz 0.3s infinite ease-in;
+}
+#vendas_art {
+    text-align: center;
+    padding: 4rem;
+}
+#buts {
+    width: 50%;
+    height: 5vh;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(133, 112, 36);
+    border: none;
+    border-radius: 10px;
+}
+#text_read_more {
+    display: none;
+}
+#vendas_art h3 {
+    padding: 0.8rem;
+    color: rgb(229, 229, 217);
+}
+#mid:hover {
+    color: rgb(84, 84, 80);
+}
+#vendas_art p {
+    color: rgb(114, 113, 113);
+}
+@keyframes luz {
+    0% {
+        color: rgb(45, 42, 42);
+    }
+    50% {
+        color: rgb(114, 113, 113);
+    }
+    55% {
+        color: rgb(133, 112, 36);
+    }
+    60% {
+        color: rgb(133, 112, 36);
+    }
+    65% {
+        color: rgb(133, 112, 36);
+    }
+    70% {
+        color: rgb(133, 112, 36);
+    }
+    75% {
+        color: rgb(133, 112, 36);
+    }
+    80% {
+        color: rgb(133, 112, 36);
+    }
+    85% {
+        color: rgb(133, 112, 36);
+    }
+    90% {
+        color: rgb(133, 112, 36);
+    }
+    95% {
+        color: rgb(133, 112, 36);
+    }
+    100% {
+        color: rgb(133, 112, 36);
+    }
+}
+@media (max-width: 1200px){
+    #list_um li {
+        display: none;
+    }
+    #list_tres li {
+        display: none;
+    }
+    #main_article h2 {
+        color: white;
+        margin-top: 1rem;
+        font-size: 1.8rem;
+        color: rgb(133, 112, 36);
+        font-weight: 900;
+        font-family: "Rajdhani", sans-serif;
+    }
+    #vendas {
+        background-color: white;
+        border-radius: 20px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+        margin: 0 auto;
+        padding: 0.2rem;
+    }
+
+
+}
